@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 14px;
+}
+ 
+.form-container {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+ 
+.required-info span, .required {
+    color: #D00;
+}
+ 
+.breadcrumb {
+    font-weight: bold;
+    color: #666;
+    font-size: 1.1em;
+}
+ 
+fieldset {
+    border: none;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-top: 2px solid #ccc;
+}
+ 
+legend {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #C00;
+    padding: 0 5px;
+    margin-left: -5px;
+}
+ 
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+ 
+.form-row label {
+    width: 150px;
+    text-align: right;
+    margin-right: 15px;
+    font-weight: bold;
+}
+ 
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row input[type="tel"],
+.form-row select,
+.form-row textarea {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #999;
+}
+ 
+textarea {
+    resize: vertical;
+}
+ 
+.note {
+    font-style: italic;
+    color: #555;
+    margin-left: 165px;
+    font-size: 0.9em;
+    margin-top: -5px;
+}
+ 
+.form-row-special {
+    display: flex;
+    margin-bottom: 5px;
+}
+ 
+.form-row-special label {
+    width: 150px;
+    text-align: right;
+    margin-right: 15px;
+    font-weight: bold;
+}
+ 
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+ 
+.radio-group label {
+    font-weight: normal;
+    margin-right: 5px;
+}
+ 
+.form-row-check {
+    margin-left: 165px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+ 
+.form-row-check label {
+    margin-left: 8px;
+}
+ 
+.form-row-check.indent {
+    margin-left: 185px;
+}
+ 
+.recurring-details {
+    margin-left: 190px;
+}
+ 
+.recurring-details input {
+    width: 80px;
+    margin: 0 5px;
+}
+ 
+label.inline-label {
+    width: auto;
+    text-align: left;
+    margin: 0 5px;
+}
+ 
+.bold-label {
+    font-weight: bold;
+    display: block;
+    margin: 15px 0 5px 165px;
+}
+ 
+input.inline-input {
+    border: none;
+    border-bottom: 1px solid #999;
+    margin-left: 5px;
+    width: 200px;
+}
+ 
+.buttons {
+    text-align: center;
+    margin: 20px 0;
+}
+ 
+button {
+    padding: 8px 20px;
+    margin: 0 10px;
+    border: 1px solid #666;
+    background-color: #e0e0e0;
+    font-weight: bold;
+    cursor: pointer;
+}
+ 
+button[type="submit"] {
+    background-color: #ddd; /* A slightly different grey */
+}
+ 
+.footer-note {
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.9em;
+    color: #444;
+}
+ 
